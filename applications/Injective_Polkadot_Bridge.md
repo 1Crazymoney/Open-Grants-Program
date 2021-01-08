@@ -4,9 +4,21 @@
 * **Payment Address:** 0xc104B47ea3D9B854CE0F3628f3A4a0A1bCD482dD
 
 ## Project Overview :page_facing_up: 
-### Brief Injective Overview
+### Brief Injective Protocol Overview
 #### Decentralization
 The Injective Chain is a fully-decentralized sidechain relayer network which serves as a layer- 2 derivatives platform,trade execution coordinator(TEC), and decentralized orderbook.The core consensus is Tendermint- based.
+
+#### Speed
+The Injective Chain provides a two-way Ethereum peg-zone for Ether and ERC-20 tokens to be transferred to the Injective Chain as well as an EVM-compatible execution environment for DeFi applications. The peg-zone is based off Peggy and the EVM execution is based off Ethermint.
+
+#### Orderbook Model
+Injective's Orderbook is a fully decentralized 0x-based orderbook enabling sidechain order relay with on - chain settlement - a decentralized implementation of the traditionally centralized off-chain order relay used by nearly all central limit order book decentralized exchanges.
+
+#### Markets
+Market creation is entirely open and permissionless. This enables anyone to create a market using only a price feed and deploy it to the larger Injective ecosystem.
+
+#### Gas fees
+Given the unique layer-2 structure, Injective is able to avoid both network congestion and the associated high gas fees.This zero gas fee structure can enable anyone to trade freely without having to worry about high gas fees or network latencies.
 
 ### Overview
 
