@@ -67,20 +67,44 @@ Generally, bridging between different blockchains
 ## Team :busts_in_silhouette:
 
 ### Team members
-* Name of team leader
-* Names of team members	
+* Eric Chen (CEO)
+* Albert Chon (CTO)
+* Mirza Uddin (Head of Business Development)
+* Maxim Kupriianov (Principal Engineer)
+* Michael Siedlecki (Software Engineer)
+* Markus Waas (Blockchain Engineer)
+* Bojan Angjelkoski (Front-end Engineer)
+* Alexandros Athanasopoulos (Blockchain Engineer)
 
 ### Contact
-* **Contact Name:** Full name of the contact person (e.g. John Brown)
-* **Contact Email:** Contact email (e.g. john@duo.com)
-* Website
+* **Contact Name:** Mirza Uddin
+* **Contact Email:** mirza@injectiveprotocol.com
+* https://injectiveprotocol.com/
 
 ### Legal Structure 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it on one line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+* **Registered Address:** P.O. Box 1350
+Clifton House
+75 Fort Street
+Grand Cayman KY1-1008
+Cayman Islands
+* **Registered Legal Entity:** Injective Network Ltd.
 
 ### Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
+Eric Chen (CEO)-  Eric previously attended NYU Stern where he studied finance and computer science. Before founding Injective, he worked as a cryptography researcher and trader at Innovating Capital where he led innovative market neutral trading efforts in the blockchain space as well as investments into prominent companies such as 0x, ChainLink and Cosmos. Eric has extensive knowledge about blockchain protocols and traditional finance along with a native understanding of both eastern and western blockchain based protocols and communities. 
+
+Albert Chon (CTO) - Albert previously attended Stanford University where he studied computer science and was involved in applied cryptography research advised under Dan Boneh (prominent Stanford cryptography Professor). Before founding Injective, he worked at Amazon as a software developer as well as Open Zeppelin. Albert invented the ERC-1178 token standard which was adopted by Loom Network for NFTs. Having lived in South Korea, Albert also has a keen understanding of the retail trading community in South Korea as well as relationships with key strategic partners in the region.
+
+Mirza Uddin (Head of Business Development) - Mirza was previously on the investment team at Two Sigma (one of the largest hedge funds in the world), where he focused on investments into blockchain based technologies. He also was part of the investment team at Index Ventures. Prior to his work in VC and startups, Mirza held roles in management consulting at BCG and in investment banking. Mirza graduated with a BA from Harvard.
+
+Maxim Kupriianov (Principal Engineer) - Maxim has 11 years of programming experience and has a diverse set of experience building back-end infrastructure at numerous startups. Prior to joining Injective, he was the lead blockchain engineer at Atlant where he led development of a real estate tokenization platform on top of Ethereum and authored the ERC-1462 security token standard. He notably also has 3 years of experience using Tendermint/Cosmos-SDK which he used in its early days to design an in-game blockchain based reward system for a distributed MMORPG at Gamma Innovations (acquired). Maxim is also an avid open-source contributor and is an expert in the Go programming language. 
+
+Michael Siedlecki (Software Engineer) - Michael has 10 years of programming experience and was an early/founding-engineer at several Y-Combinator funded startups. He worked for 2 years at EMX where he worked full-stack on the company’s centralized crypto derivatives exchange. Coming from a centralized exchange that went head-to-head with FTX, Michael spearheaded multiple derivatives trading competitions and has a very good understanding of product and growth-hacking.
+
+Markus Waas (Blockchain Engineer) - Markus has 10 years of programming experience and has over 8 years of crypto-specific experience. He began mining Bitcoin in 2012 and has worked at several blockchain companies/projects in the past. Before joining Injective, Markus was a smart contract engineer at Laminar/Acala where he created a Forex CFD margin trading platform on Ethereum. Markus also worked at Juri where he designed and implemented a new type of staking pool as well as a fully decentralized oracle system. Markus graduated from Humboldt University in Berlin where he wrote his master’s thesis on randomness on the blockchain and has won awards at numerous Ethereum hackathons including ETHBerlin and Blockstack Berlin. He is a Solidity expert and is the author of https://soliditydeveloper.com.
+
+Bojan Angjelkoski (Front-end Engineer) - Bojan has 8 years of programming experience and has experience at multiple startups as a full-stack engineer. He has also previously worked at the prestigious World Trade Organization (WTO) as a full-stack engineer. Bojan holds both a B.S. and M.S. degree in Computer Science.
+
+Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programming experience and has been developing on Ethereum for 3 years. Alex has a plethora of experience building decentralized applications and games on top of Ethereum. Some projects he worked prior to joining Injective include Global Crypto Alliance (a blockchain reputation-based incentivized news platform), Aries Blockchain (a no-code dApp startup) as well as numerous other projects involving escrows, insurance, and gaming. He is a graduate of the National Technical University of Athens where he wrote his masters thesis on decentralized finance.
 
 ### Team Code Repos
 * https://github.com/<your_repo_1>
