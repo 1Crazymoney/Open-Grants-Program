@@ -49,7 +49,7 @@ Injective Protocol is offering unlimited trading for assets inside the cryptocur
 
 With this bridge, Polkadot users will be able to easily transfer their assets and enjoy trading on Injective exchange and then move their earnings back to Polkadot and benefit from all decentralized applications there.
 
-To conclude with, this application will result in a very interesting win-win situation between Injective Protocol and Polkadot.
+To conclude with, this application could result in a very interesting win-win situation between Injective Protocol and Polkadot.
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
