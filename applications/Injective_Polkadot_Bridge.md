@@ -111,8 +111,14 @@ Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programmin
 * https://github.com/<your_repo_2>
 
 ### Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/ericchenmelt/
+* https://www.linkedin.com/in/albertchon/
+* https://www.linkedin.com/in/themirzauddin/
+* https://www.linkedin.com/in/mkupriianov/
+* https://www.linkedin.com/in/michaelsiedlecki/
+* https://www.linkedin.com/in/markuswaas/
+* https://www.linkedin.com/in/bangjelkoski/
+* https://www.linkedin.com/in/alexandros-athanasopoulos-gr/
 
 ## Development Roadmap :nut_and_bolt: 
 
