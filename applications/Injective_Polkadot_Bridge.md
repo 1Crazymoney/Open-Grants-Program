@@ -21,11 +21,35 @@ Market creation is entirely open and permissionless. This enables anyone to crea
 Given the unique layer-2 structure, Injective is able to avoid both network congestion and the associated high gas fees.This zero gas fee structure can enable anyone to trade freely without having to worry about high gas fees or network latencies.
 
 ### Overview
+#### The problems
+Decentralized finance ecosystem and generally cryptocurrencies are getting more and more attention as years go by.
+This big expose is digging up some of the big weaknesses of the ecosystem though.
+The most important issues arised are:
+ * Scalability
+ * Fees
+ * Connectivity
+ 
+The first two issues are visible to the most popular cryptocurrencies, like Bitcoin and Ethereum. Especially on big market moves, blockchains like the previously mentioned ones, which are not designed to process a lot of transactions per second struggle to serve on market needs, which results in pending transactions forever if fees paid are not big enough.
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  * An indication of why your team is interested in creating this project.
+A lot of cryptocurrencies' blockchains have been designed to solve those problems, without any of those establishing itself in the ecosystem. And that happens because the third issue exists, which is connectivity.
+
+It is not overstatement to say that Ethereum is holding the decentralized finance's keys. Almost all assets and DEFI applications are part of its ecosystem and it is hard for them to move to other blockchains.
+
+#### The solution
+Thus the biggest challenge nowadays is to bridge assets (which also means decentralized applications) between different blockchains.
+
+Polkadot ecosystem is creating big expectations for that reason. An ecosystem that is consisting of different parachains, which are easily communicating with each other. Polkadot will also be able to communicate with Ethereum Blockchain, while it will offer much lower fees and much more transactions per second.
+
+For all those reasons, Polkadot is becoming more and more popular among cryptocurrencies and a huge variety of projects are trying to become part of its ecosystem.
+
+#### The application
+Injective Protocol is not in a different situation. A bridge for assets between Injective Chain and Moonbeam parachain, which is part of Polkadot ecosystem will benefit both ecosystems.
+
+Injective Protocol is offering unlimited trading for assets inside the cryptocurrencies' ecosystem, but also for forex and stocks.
+
+With this bridge, Polkadot users will be able to easily transfer their assets and enjoy trading on Injective exchange and then move their earnings back to Polkadot and benefit from all decentralized applications there.
+
+To conclude with, this application will result in a very interesting win-win situation between Injective Protocol and Polkadot.
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
