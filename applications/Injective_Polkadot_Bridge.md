@@ -52,26 +52,26 @@ With this bridge, Polkadot users will be able to easily transfer their assets an
 To conclude with, this application could result in a very interesting win-win situation between Injective Protocol and Polkadot.
 
 ### Project Details
-Generally, the bridge will allow assets to be transfered both ways. That means that tokens will be able to be transferred from their native chain to the other as wrapped tokens, but then also those wrapped assets can be transferred back to the native chain.
-
-The procedure will be exactly the same for both chains (same smart contracts, same relayer handling).
-
-The bridge will be consisted of three main parts:
-1) Smart Contracts
-2) Relayer Software
-3) UI
-
-#### Smart Contracts
-All smart contracts will be written in Solidity, as both Moonbeam and Injective support EVM based smart contract development.
-There will be created three smart contracts for the bridge's purpose:
-a) Depositor smart contract
-Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.
-Once the assets are deposited in this smart contract there will be locked, till an order from Multisig smart contract to unlock is given.
-b) Handler smart contract
-Handler smart contract will be actually the opposite of the depositor smart contract. When a deposit of an asset (native or wrapped) is happening on one chain, handler will be responsible for minting the same asset (wrapped or native) on the other chain.
-c) Multisig smart contract
-Multisig smart contract will actually act as a voting contracts for the validators and as the owner of the handler. Validators, the number of which is yet to be determined, but it will be at least three, will need to reach consensus about the validity of a deposit, so as multisig smart contracts to provide permission for handler smart contract to mint.
-
+Generally, the bridge will allow assets to be transfered both ways. That means that tokens will be able to be transferred from their native chain to the other as wrapped tokens, but then also those wrapped assets can be transferred back to the native chain.  
+  
+The procedure will be exactly the same for both chains (same smart contracts, same relayer handling).  
+  
+The bridge will be consisted of three main parts:  
+1) Smart Contracts  
+2) Relayer Software  
+3) UI  
+  
+#### Smart Contracts  
+All smart contracts will be written in Solidity, as both Moonbeam and Injective support EVM based smart contract development.  
+There will be created three smart contracts for the bridge's purpose:  
+a) Depositor smart contract  
+Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.  
+Once the assets are deposited in this smart contract there will be locked, till an order from Multisig smart contract to unlock is given.  
+b) Handler smart contract  
+Handler smart contract will be actually the opposite of the depositor smart contract. When a deposit of an asset (native or wrapped) is happening on one chain, handler will be responsible for minting the same asset (wrapped or native) on the other chain.  
+c) Multisig smart contract  
+Multisig smart contract will actually act as a voting contracts for the validators and as the owner of the handler. Validators, the number of which is yet to be determined, but it will be at least three, will need to reach consensus about the validity of a deposit, so as multisig smart contracts to provide permission for handler smart contract to mint.  
+  
 #### Relayer Software
 
 #### UI
