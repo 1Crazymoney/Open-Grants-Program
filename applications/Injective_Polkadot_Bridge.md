@@ -191,10 +191,7 @@ Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programmin
 ## Future Plans
 Please include the team's long-term plans and intentions.
 
-## Additional Information :heavy_plus_sign: 
-Any additional information that you think is relevant to this application that hasn't already been included.
+## Additional Information :heavy_plus_sign:   
+There are no teams that have contributed financially at the moment. We are planning to work with Moonbeam but there was no financial contribution.
+There are not yet any other applications of ours for other grants.
 
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
