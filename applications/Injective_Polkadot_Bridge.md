@@ -107,8 +107,7 @@ Bojan Angjelkoski (Front-end Engineer) - Bojan has 8 years of programming experi
 Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programming experience and has been developing on Ethereum for 3 years. Alex has a plethora of experience building decentralized applications and games on top of Ethereum. Some projects he worked prior to joining Injective include Global Crypto Alliance (a blockchain reputation-based incentivized news platform), Aries Blockchain (a no-code dApp startup) as well as numerous other projects involving escrows, insurance, and gaming. He is a graduate of the National Technical University of Athens where he wrote his masters thesis on decentralized finance.
 
 ### Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/InjectiveLabs
 
 ### Team LinkedIn Profiles
 * https://www.linkedin.com/in/ericchenmelt/
@@ -122,44 +121,56 @@ Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programmin
 
 ## Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of your software. Treat it as a contract - the level of detail must be enough to later verify that the software meets the specification.
-To assist you in defining it, we created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-* Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
-
 ### Overview
-* **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) (e.g. 2 FTE)
+* **Total Estimated Duration:** 3 months
+* **Full-time equivalent (FTE):**  3 FTE
 * **Total Costs:** 20000 DAI
 
-### Milestone 1 Example — Implement Substrate Modules 
+### Milestone 1 Implementation of Smart Contracts 
 * **Estimated Duration:** 1 month
 * **FTE:**  1
-* **Costs:** 0.75 BTC
+* **Costs:** 7000 DAI
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 0d. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant. 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0b. | Documentation | Documentation will be provided on how smart contracts for the bridge designed exactly. |
+| 0c. | Testing Guide | The smart contracts code will be tested in local environment. | 
+| 1. | Depositor Smart Contract | A depositor smart contract will be created, which will be responsible for locking the assets. |  
+| 2. | Handler Smart Contract | A handler smart contract will be created, which will be responsible for executing on deposit. |  
+| 3. | Multisig Smart Contract | A multisig smart contract will be created, which will be responsible for validating the bridging. |  
+| 4. | Smart Contract tests | Tests for all those smart contracts and the interconnection between them will be delivered. |  
+| 5. | README | A README.md file will be added to the repo, which will describe the steps to migrate and test the smart contracts flow. |
 
-### Milestone 2 Example — Additional features
-...
+### Milestone 2 Implementation of relayer code
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** 7000 DAI
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 0a. | License | Apache 2.0 / MIT / Unlicense |
+| 0b. | Documentation | Documentation will be provided on how relayers are designed to interact with the bridging smart contracts. |
+| 0c. | Testing Guide | Relayers' workflow will be tested. | 
+| 1. | Relayer Software | The software on how relayers will interact with the bridge on the two different chains. |  
+| 2. | Relayer Tests | Tests for relayers and the interconnection between them and smart contracts will be delivered. |  
+| 3. | README | A README.md file will be added to the repo, which will describe the steps to run the whole bridge in a local environment. |
+
+
+### Milestone 3 UI implementation
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** 6000 DAI
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 0a. | License | Apache 2.0 / MIT / Unlicense |
+| 0b. | Documentation | Documentation and/or article will be provided on how everyone can test the bridge real time between Moonbeam testnet and Injective testnet. |
+| 0c. | Testing Guide | The whole bridge's workflow will be tested between Moonbeam's and Injective's testnet. | 
+| 1. | FrontEnd Software | The software for the front end will be developed. |  
+| 2. | Interaction Website | The Frontend will be deployed and everyone will be able to interact with it. |  
+| 3. | Interaction Page | The Frontend will be deployed. |  
+| 4. | Article | A step by step guide and/or video will be published about the interaction with the bridge. |
 
 ## Future Plans
 Please include the team's long-term plans and intentions.
