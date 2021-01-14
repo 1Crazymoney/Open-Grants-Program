@@ -51,18 +51,34 @@ With this bridge, Polkadot users will be able to easily transfer their assets an
 
 To conclude with, this application could result in a very interesting win-win situation between Injective Protocol and Polkadot.
 
-### Project Details 
-We expect the teams to already have a solid idea about the project's expected final state.
+### Project Details
+Generally, the bridge will allow assets to be transfered both ways. That means that tokens will be able to be transferred from their native chain to the other as wrapped tokens, but then also those wrapped assets can be transferred back to the native chain.
 
-Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components
-* API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
+The procedure will be exactly the same for both chains (same smart contracts, same relayer handling).
+
+The bridge will be consisted of three main parts:
+1) Smart Contracts
+2) Relayer Software
+3) UI
+
+#### Smart Contracts
+All smart contracts will be written in Solidity, as both Moonbeam and Injective support EVM based smart contract development.
+There will be created three smart contracts for the bridge's purpose:
+a) Depositor smart contract
+Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.
+Once the assets are deposited in this smart contract there will be locked, till an order from Multisig smart contract to unlock is given.
+b) Handler smart contract
+Handler smart contract will be actually the opposite of the depositor smart contract. When a deposit of an asset (native or wrapped) is happening on one chain, handler will be responsible for minting the same asset (wrapped or native) on the other chain.
+c) Multisig smart contract
+Multisig smart contract will actually act as a voting contracts for the validators and as the owner of the handler. Validators, the number of which is yet to be determined, but it will be at least three, will need to reach consensus about the validity of a deposit, so as multisig smart contracts to provide permission for handler smart contract to mint.
+
+#### Relayer Software
+
+#### UI
+Through the UI users will be able to interact with the bridge. It will contain web3 connection to both chains and the essential deposit tab.
 
 ### Ecosystem Fit 
-Generally, bridging between different blockchains
+As described above, bridging Polkadot assets with Injective, which is a limitless decentralized exchange will be a great utility for the ecosystem growth.
 
 ## Team :busts_in_silhouette:
 
