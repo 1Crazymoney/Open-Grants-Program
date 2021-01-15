@@ -211,6 +211,6 @@ Our whole project, which includes the whole exchange and chain will be on mainne
 the actual purpose. 
 
 ## Additional Information :heavy_plus_sign:   
-There are no teams that have contributed financially at the moment. We are planning to work with Moonbeam but there was no financial contribution.
+There are no teams that have contributed financially at the moment. We are planning to work with Moonbeam but there was no financial contribution. 
 There are not yet any other applications of ours for other grants.
 
