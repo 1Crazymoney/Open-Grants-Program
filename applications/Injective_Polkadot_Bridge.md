@@ -65,6 +65,7 @@ The bridge will be consisted of three main parts:
 All smart contracts will be written in Solidity, as both Moonbeam and Injective support EVM based smart contract development.  
  
 There will be created three smart contracts for the bridge's purpose:  
+ 
 a) Depositor smart contract  
 Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.  
 Once the assets are deposited in this smart contract there will be locked, till an order from Multisig smart contract to unlock is given.  
