@@ -52,7 +52,7 @@ With this bridge, Polkadot users will be able to easily transfer their assets an
 To conclude with, this application could result in a very interesting win-win situation between Injective Protocol and Polkadot.
 
 ### Project Details
-Generally, the bridge will allow assets to be transfered both ways. That means that tokens will be able to be transferred from their native chain to the other as wrapped tokens, but then also those wrapped assets can be transferred back to the native chain.  
+Generally, the bridge will allow assets to be transfered both ways. That means that tokens will be able to be transferred from their native chain to the other chain as wrapped tokens, but then also those wrapped assets can be transferred back to the native chain.  
   
 The procedure will be exactly the same for both chains (same smart contracts, same relayer handling).  
   
@@ -67,12 +67,24 @@ There will be created three smart contracts for the bridge's purpose:
 a) Depositor smart contract  
 Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.  
 Once the assets are deposited in this smart contract there will be locked, till an order from Multisig smart contract to unlock is given.  
+ 
 b) Handler smart contract  
-Handler smart contract will be actually the opposite of the depositor smart contract. When a deposit of an asset (native or wrapped) is happening on one chain, handler will be responsible for minting the same asset (wrapped or native) on the other chain.  
+Handler smart contract will be actually the opposite of the depositor smart contract. When a deposit of an asset (native or wrapped) is happening on one chain, handler will be responsible for minting the same asset (wrapped or native) on the destination chain.  
+ 
 c) Multisig smart contract  
 Multisig smart contract will actually act as a voting contracts for the validators and as the owner of the handler. Validators, the number of which is yet to be determined, but it will be at least three, will need to reach consensus about the validity of a deposit, so as multisig smart contracts to provide permission for handler smart contract to mint.  
   
 #### Relayer Software
+Relayer software will be responsible for the smooth functioning of the whole bridge, as it will handle event listening and permission providing. 
+The main relayers will actually be responsible to listen on the Deposit event of the entry chain and pass the data on the Multisig of the destination chain. 
+There will be two main relayers one for each chain.
+There will be other relayers, called validators which will listen to the OpenVote event of Multisig. When such an event occurs means that validators will need to vote about the validity of the deposit. Validators will then need to sign their vote with their private keys and pass it to the Multisig. 
+The last validator to reach the Multisig, will also trigger the vote result. 
+If there is no consensus, VoteFailed event is triggered and the main relayer of the respective chain unlocks the deposit, so as user to be able to withdraw them back. 
+If there is consensus assets are appearing to the destination chain on the wallet that depositor passed as input on the deposit function.
+
+There will be also other features added, like cancellation of a deposit in case a transaction is taking too long to execute (because of low gas fee etc). 
+Those features will be certainly provided alongside the Relayer Software milestone, because it is widely known that some edge cases cannot be considered before the real development starts. 
 
 #### UI
 Through the UI users will be able to interact with the bridge. It will contain web3 connection to both chains and the essential deposit tab.
@@ -189,7 +201,8 @@ Alexandros Athanasopoulos (Blockchain Engineer) - Alex has 5 years of programmin
 | 4. | Article | A step by step guide and/or video will be published about the interaction with the bridge. |
 
 ## Future Plans
-Please include the team's long-term plans and intentions.
+Our whole project, which includes the whole exchange and chain will be on mainnet approximately Q2-Q3 2021, so that is when the bridge will have 
+the actual purpose. 
 
 ## Additional Information :heavy_plus_sign:   
 There are no teams that have contributed financially at the moment. We are planning to work with Moonbeam but there was no financial contribution.
