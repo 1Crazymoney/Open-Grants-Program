@@ -63,6 +63,7 @@ The bridge will be consisted of three main parts:
   
 #### Smart Contracts  
 All smart contracts will be written in Solidity, as both Moonbeam and Injective support EVM based smart contract development.  
+ 
 There will be created three smart contracts for the bridge's purpose:  
 a) Depositor smart contract  
 Depositor smart contract will be responsible to accept the deposits of the assets that users would like to bridge.  
@@ -76,11 +77,15 @@ Multisig smart contract will actually act as a voting contracts for the validato
   
 #### Relayer Software
 Relayer software will be responsible for the smooth functioning of the whole bridge, as it will handle event listening and permission providing. 
+ 
 The main relayers will actually be responsible to listen on the Deposit event of the entry chain and pass the data on the Multisig of the destination chain. 
-There will be two main relayers one for each chain.
+There will be two main relayers one for each chain. 
+ 
 There will be other relayers, called validators which will listen to the OpenVote event of Multisig. When such an event occurs means that validators will need to vote about the validity of the deposit. Validators will then need to sign their vote with their private keys and pass it to the Multisig. 
 The last validator to reach the Multisig, will also trigger the vote result. 
+ 
 If there is no consensus, VoteFailed event is triggered and the main relayer of the respective chain unlocks the deposit, so as user to be able to withdraw them back. 
+ 
 If there is consensus assets are appearing to the destination chain on the wallet that depositor passed as input on the deposit function.
 
 There will be also other features added, like cancellation of a deposit in case a transaction is taking too long to execute (because of low gas fee etc). 
